@@ -57,7 +57,7 @@
       <button type="button" @click="register">Register</button>
     </div>
   </div>
-  <p class="text">Already have an account? <a href="#">Sign In</a></p>
+  <p class="text">Already have an account? <a href="/login">Sign In</a></p>
 </template>
 <script setup>
 import { reactive, ref, onMounted } from "vue";
