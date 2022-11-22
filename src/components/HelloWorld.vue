@@ -9,32 +9,31 @@ const count = ref(0)
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
-
-  <p>
-    Recommended IDE setup:
-    <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
-    +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
-  </p>
-
-  <p>
-    <a href="https://vitejs.dev/guide/features.html" target="_blank">
-      Vite Documentation
-    </a>
-    |
-    <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Documentation</a>
-  </p>
-
-  <button type="button" @click="count++">count is: {{ count }}</button>
-  <p>
-    Edit
-    <code>components/HelloWorld.vue</code> to test hot module replacement.
-  </p>
+  <h1>Welcome To Login Page</h1>
+  <div class="link">
+    <router-link to="/login">Please Login</router-link>
+  </div>
+  
 </template>
 
 <style scoped>
+h1 {
+  color: #eee;
+}
+.link{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 a {
-  color: #42b983;
+  background-color: rgb(147 197 253);
+  height: 20px;
+  width: 100px;
+  padding:15px 15px;
+  display: block;
+  border-radius: 0.7rem;
+  color: #4B4453;
+  
 }
 </style>

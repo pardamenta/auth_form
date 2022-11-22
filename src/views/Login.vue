@@ -24,7 +24,7 @@
     <button type="button" @click="login">Log In</button>
   </form>
   <div class="bottom">
-    <p>Don't Have an Account?<a href="#">Register</a></p>
+    <p>Don't Have an Account?<a href="/register">Register</a></p>
     <p>Forgotten your password?<a href="#">Recovery Password</a></p>
   </div>
 </template>
